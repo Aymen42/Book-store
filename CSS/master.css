@@ -1,0 +1,166 @@
+/* 
+    book store  (margin-background-padding-border) ....etc 
+ */
+
+
+/* body-empty-margin */
+ *{
+    margin: 0px;
+
+}
+body{
+    background-color: #dac4cb;
+    background-size: contain;
+}
+
+/* all-header-some-decoration */
+.header {
+    background-color: #dac4cb;
+    padding: 15px 0px 15px 250px;
+
+}
+
+/* logo & nav-bar & A's same decoration  */
+.header .logo,
+.header,
+.nav,
+a {
+    display: inline-block;
+text-decoration: none;
+color: #4d4c7d;
+font-size: 20px;
+text-transform: capitalize;
+font-family: 'Open Sans', sans-serif;
+
+}
+
+/* Logo-decoration */
+.header .logo a span {
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+
+}
+
+/* space-between-A's */
+a{
+    margin-left: 50px;
+
+}
+
+/* space-between-A's & Logo */
+.nav {
+    margin-left: 300px;
+
+}
+/* 
+end-of-header-decoration 
+*/
+
+/*
+start-of-welcome-section-decoration 
+*/
+.container{
+    margin-top: 200px;
+    margin-left: 25px;
+
+
+}
+
+.p-welcome span {
+    color: #4d4c7d;
+    font-size: 50px;
+    font-style: oblique;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-left: 10px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.p-welcome p{
+    color: #2e3c87;
+    font-size: 20px;
+    font-family: fangsong;
+    font-weight: bolder;
+    margin-top: 0px;
+    margin-left: 10px;
+    text-transform: capitalize;
+    display: inline-block;
+    width: fit-content;
+
+}
+
+.container img{
+display: inline-block;
+width: 450px;
+height : 500px;
+margin: -300px 10px 10px 850px;
+border: none;
+
+}
+
+/*
+
+    this is the novels line 
+*/
+.novel-section .line-1 .Novels-title {
+    color: #827397;
+text-align: center;
+text-transform: capitalize;
+font-size: 40px;
+font-family: monospace;
+font-weight: bold;
+margin-top: 50px;
+
+}
+
+.novel-section div {
+    float: left;   
+    margin-left:2.5px;
+        margin-bottom: 10px;
+        font-family: 'Lato', sans-serif;;
+
+}
+
+img {
+    height: 300px;
+    margin: 10px;
+    cursor: pointer;
+    width: 192px;
+border: 2px solid rgb(0, 0, 0);
+border-radius: 10px;
+
+}
+
+h3{
+    text-align: center;
+color: #4d4c7d;
+font-size: 25px;
+text-transform: capitalize;
+
+}
+
+/* footer
+ */
+.footer {
+text-transform: capitalize;
+}
+
+
+.footer-img img {
+width: 50px;
+height: 50px;
+border: none;
+margin-left: 125px;
+margin-top: 20px;
+}
+
+.footer-p {
+    color: #363062;
+    font-weight: 600;
+margin-top: 45px;
+text-align: center;
+}
+
